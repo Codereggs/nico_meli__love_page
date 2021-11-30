@@ -39,6 +39,7 @@ export const Temporizador = ({ anio, mes, dia }) => {
   useEffect(() => {
     setInterval(countDown, 1000);
     Aos.init({ duration: 2000 });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const textTempStyle = {
