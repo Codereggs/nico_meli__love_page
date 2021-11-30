@@ -1,0 +1,6 @@
+.fechaLink {
+  padding: 0 2rem;
+}
+.fechaLink:hover {
+  opacity: 0.5;
+}

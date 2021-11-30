@@ -1,0 +1,19 @@
+.fecha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 7rem auto;
+}
+
+.cIcon,
+.fIcon,
+.cloIcon {
+  font-size: 6em;
+  color: #bababa;
+}
+
+.fechaLink {
+  font-size: 1.5em;
+}

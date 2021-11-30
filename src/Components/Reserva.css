@@ -1,0 +1,24 @@
+.reserva {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("../Assets/reserva2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rContainer {
+  background-color: #fff;
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.rWIcon {
+  font-size: 10em;
+}

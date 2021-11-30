@@ -1,0 +1,100 @@
+.inicio {
+  min-height: 80vh;
+  background-image: url(./Assets/nicomeli.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 0rem;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inicioData {
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.inicioData h1 {
+  font-size: 2.7em;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.inicioData h3 {
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.dArrow {
+  font-size: 2.5em;
+  align-self: center;
+  color: #fff;
+  font-family: "Monserrat";
+  margin-bottom: 2rem;
+}
+
+.dArrowLink:visited {
+  opacity: 1;
+}
+.dArrowLink:active {
+  opacity: 0.5;
+}
+/*----Temporizador----*/
+.temporizador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tempObj {
+  width: 1rem;
+  height: 1rem;
+  background-color: #f280aa;
+  color: black;
+  border-radius: 50%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-style: inherit;
+  font-weight: 900;
+}
+/*-------------PC------------*/
+@media screen and (min-width: 768px) {
+  .inicio {
+    background-position: 0rem 0rem;
+    align-items: flex-end;
+    justify-content: space-between;
+    min-height: 90vh;
+  }
+  .inicioData {
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+  .inicioData h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .inicioData h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .dArrow:hover {
+    opacity: 0.5;
+  }
+
+  /*----Temporizador----*/
+  .tempObj {
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+  }
+}
