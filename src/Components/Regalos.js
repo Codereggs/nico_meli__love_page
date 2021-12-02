@@ -29,6 +29,14 @@ const Regalos = () => {
           especial... Pero si algo gustas regalar, en efectivo lo sabremos
           apreciar.
         </Typography>
+        <br />
+        <Typography variant={res} color="#f280aa" data-aos="fade-down">
+          CBU:
+        </Typography>
+        <br />
+        <Typography variant={res} color="#f280aa" data-aos="fade-down">
+          0140087803502354380982
+        </Typography>
       </Container>
     </section>
   );

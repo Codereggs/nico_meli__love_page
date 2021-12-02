@@ -19,7 +19,7 @@ const Inicio = () => {
         <Typography variant="h3" style={style} data-aos="fade-left">
           ¡Nos casamos!
         </Typography>
-        <Temporizador anio="2022" mes="1" dia="7" />
+        <Temporizador anio="2022" mes="1" dia="8" />
       </div>
       <div className="dArrow">
         <Link
